@@ -10,6 +10,10 @@
 ```bash
 sudo autovpn2.py
 ```
+#### Dependencies:
+```bash
+apt install openvpn
+```
 ### Installation:
 ```bash
 mv autovpn2.py /usr/local/bin
