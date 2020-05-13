@@ -10,7 +10,7 @@
 ```bash
 sudo autovpn2.py JP
 ```
-Note: It Defaults to US
+![#ffff00](https://placehold.it/15/ffff00/000000?text=+) It Defaults to US
 
 #### Dependencies:
 ```bash
