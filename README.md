@@ -10,9 +10,9 @@
 ```bash
 sudo autovpn2.py JP
 ```
-![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Defaults to USA (**US** :us:)
+Defaults to USA (**US** :us:)
 
-Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. Japan (**JP** :jp:)
+![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. Japan (**JP** :jp:)
 
 ---
 
