@@ -6,7 +6,8 @@
 ### To test:
 ![#0edb0e](https://placehold.it/15/0edb0e/000000?text=+) [Anonymity Check](http://proxydb.net/anon)
 
-### Usage: 
+### Usage:
+Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. CA
 ```bash
 sudo autovpn2.py JP
 ```
