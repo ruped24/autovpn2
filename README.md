@@ -12,6 +12,8 @@ sudo autovpn2.py JP
 ```
 ![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Defaults to US
 
+---
+
 ### Dependencies:
 ```bash
 apt install openvpn
