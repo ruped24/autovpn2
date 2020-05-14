@@ -20,3 +20,8 @@ apt install openvpn
 ```bash
 mv autovpn2.py /usr/local/bin
 ```
+---
+Legal Disclosure:
+
+##### We are not affiliated with VPN Gate in any way. We are not advocating the use of their or any free VPN service.
+
