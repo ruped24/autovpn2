@@ -3,15 +3,15 @@
 
 [VPN Gate](https://www.vpngate.net/en/) Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
-### To test:
-* [Anonymity Check](http://proxydb.net/anon)
-* [What is my proxy](http://www.whatismyproxy.com)
-
 ### Usage:
 ```bash
 sudo autovpn2.py JP
 ```
 Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. Japan (**JP** [:jp:](https://en.wikipedia.org/wiki/Japan))
+
+### To test:
+* [Anonymity Check](http://proxydb.net/anon)
+* [What is my proxy](http://www.whatismyproxy.com)
 
 ---
 
