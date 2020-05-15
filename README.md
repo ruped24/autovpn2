@@ -4,9 +4,9 @@
 [VPN Gate](https://www.vpngate.net/en/) Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
 ### To test:
-[Anonymity Check](http://proxydb.net/anon)
+*[Anonymity Check](http://proxydb.net/anon)
 
-[What's my proxy](http://www.whatismyproxy.com)
+*[What's my proxy](http://www.whatismyproxy.com)
 
 ### Usage:
 ```bash
