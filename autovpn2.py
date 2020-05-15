@@ -11,7 +11,7 @@ from base64 import b64decode
 from commands import getoutput
 from contextlib import closing
 from os import geteuid, remove
-from os.path import basename, isfile
+from os.path import isfile
 from subprocess import call
 from sys import argv, exit, stderr
 from urllib2 import urlopen
