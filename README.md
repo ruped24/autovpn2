@@ -4,9 +4,8 @@
 [VPN Gate](https://www.vpngate.net/en/) Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
 ### To test:
-*[Anonymity Check](http://proxydb.net/anon)
-
-*[What's my proxy](http://www.whatismyproxy.com)
+* [Anonymity Check](http://proxydb.net/anon)
+* [What is my proxy](http://www.whatismyproxy.com)
 
 ### Usage:
 ```bash
@@ -27,7 +26,7 @@ mv autovpn2.py /usr/local/bin
 ### [Frequently Asked Questions](https://github.com/ruped24/autovpn2/wiki/FAQ)
 
 ---
-Legal Disclosure:
+#### Legal Disclosure:
 
-##### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any [Free VPN](https://bitbucket.org/ruped24/autovpnbook/src/master/) service.
+###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any [Free VPN](https://bitbucket.org/ruped24/autovpnbook/src/master/) service.
 
