@@ -4,13 +4,15 @@
 [VPN Gate](https://www.vpngate.net/en/) Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
 ### To test:
-![#0edb0e](https://placehold.it/15/0edb0e/000000?text=+) [Anonymity Check](http://proxydb.net/anon)
+[Anonymity Check](http://proxydb.net/anon)
+
+[What's my proxy](http://www.whatismyproxy.com)
 
 ### Usage:
 ```bash
 sudo autovpn2.py JP
 ```
-![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. Japan (**JP** :jp:)
+Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the standard country code. E.g. Japan (**JP** :jp:)
 
 ---
 
@@ -27,5 +29,5 @@ mv autovpn2.py /usr/local/bin
 ---
 Legal Disclosure:
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any [Free VPN](https://bitbucket.org/ruped24/autovpnbook/src/master/) service.
+##### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any [Free VPN](https://bitbucket.org/ruped24/autovpnbook/src/master/) service.
 
