@@ -7,8 +7,6 @@
 ```bash
 sudo autovpn2.py JP
 ```
-Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the country code. E.g. Japan (**JP** [:jp:](https://en.wikipedia.org/wiki/Japan))
-
 ### To test:
 * [Anonymity Check](http://proxydb.net/anon)
 * [What is my proxy](http://www.whatismyproxy.com)
