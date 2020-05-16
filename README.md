@@ -3,7 +3,7 @@
 
 [VPN Gate](https://www.vpngate.net/en/) Client to Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
-### Usage:
+### [Usage](https://github.com/ruped24/autovpn2/wiki/Autovpn2-Usage):
 ```bash
 sudo autovpn2.py JP
 ```
