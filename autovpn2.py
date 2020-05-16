@@ -26,13 +26,18 @@ class AutoVpn(object):
 
     def save_config_file(self):
         print "[autovpn2] writing config file"
-        with open('/tmp/openvpnconf', 'w') as config_file:
-            server = self.servers.index(self.country)
-            config_file.write(
-                '\n'.join(
-                    str(b64decode(self.servers[server + 8])).split('\n')[:-1]
+        try:
+            with open('/tmp/openvpnconf', 'w') as config_file:
+                server = self.servers.index(self.country)
+                config_file.write(
+                    '\n'.join(
+                        str(b64decode(self.servers[server + 8])
+                           ).split('\n')[:-1]
+                    )
                 )
-            )
+        except:
+            self.get_serverlist()
+        else:
             print "[autovpn2] running openvpn\n"
 
     def get_serverlist(self):
@@ -52,10 +57,7 @@ class AutoVpn(object):
                     self.country + "\033[0m" + " not in server list"
                 )
             else:
-                try:
-                    self.save_config_file()
-                except:
-                    self.get_serverlist()
+                self.save_config_file()
 
     def openvpn(self):
         call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'])
@@ -72,6 +74,17 @@ if __name__ == '__main__':
 
     except KeyboardInterrupt:
         call(["kill", "-9", "%s" % getoutput('pidof openvpn')])
+        stderr.write("\x1b[2J\x1b[H")
         if isfile("/tmp/openvpnconf"):
             remove("/tmp/openvpnconf")
-        stderr.write("\x1b[2J\x1b[H")
+        retry = ('y', 'yes')
+        try:
+            ans = raw_input("\n[autovpn2] try another VPN? (y/n) ")
+            if ans.lower() in retry:
+                try:
+                    AutoVpn("JP")
+                except:
+                    if isfile("/tmp/openvpnconf"):
+                        remove("/tmp/openvpnconf")
+        except:
+            pass
