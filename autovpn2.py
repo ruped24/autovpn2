@@ -65,10 +65,6 @@ class AutoVpn(object):
         call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'])
 
 
-def receiveSignal(signalNumber, frame):
-    print('Received:', signalNumber)
-
-
 if __name__ == '__main__':
     if geteuid() is not 0:
         exit("\033[91m[!]\033[0m Run as super user!")
