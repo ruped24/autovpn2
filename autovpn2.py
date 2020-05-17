@@ -37,6 +37,7 @@ class AutoVpn(object):
                     )
                 )
         except:
+            print "[autovpn2] rewriting config file"
             self.get_serverlist()
         else:
             print "[autovpn2] running openvpn\n"
@@ -62,6 +63,10 @@ class AutoVpn(object):
 
     def openvpn(self):
         call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'])
+
+
+def receiveSignal(signalNumber, frame):
+    print('Received:', signalNumber)
 
 
 if __name__ == '__main__':
