@@ -12,6 +12,7 @@ from commands import getoutput
 from contextlib import closing
 from os import geteuid, remove
 from os.path import isfile
+from random import choice
 from subprocess import call
 from sys import argv, exit, stderr
 from urllib2 import urlopen
@@ -82,7 +83,8 @@ if __name__ == '__main__':
             ans = raw_input("\n[autovpn2] try another VPN? (y/n) ")
             if ans.lower() in retry:
                 try:
-                    AutoVpn("JP")
+                    servers = ('JP', 'KR')
+                    AutoVpn(choice(servers))
                 except:
                     if isfile("/tmp/openvpnconf"):
                         remove("/tmp/openvpnconf")
