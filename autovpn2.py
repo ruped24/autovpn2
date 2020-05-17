@@ -83,7 +83,7 @@ if __name__ == '__main__':
             ans = raw_input("\n[autovpn2] try another VPN? (y/n) ")
             if ans.lower() in retry:
                 try:
-                    servers = ('JP', 'KR')
+                    servers = ('JP', 'JP')
                     AutoVpn(choice(servers))
                 except:
                     if isfile("/tmp/openvpnconf"):
