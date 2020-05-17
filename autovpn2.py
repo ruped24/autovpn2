@@ -81,7 +81,10 @@ if __name__ == '__main__':
             remove("/tmp/openvpnconf")
         retry = ('y', 'yes')
         try:
-            ans = raw_input("\n[autovpn2] try another VPN? (y/n) ")
+            ans = raw_input(
+                "\033[92m\n[autovpn2]\033[93m try another VPN? (y/n)\033[0m " +
+                "\033[92m"
+            )
             if ans.lower() in retry:
                 try:
                     servers = ('JP', 'JP')
