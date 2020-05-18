@@ -10,12 +10,14 @@
 from base64 import b64decode
 from commands import getoutput
 from contextlib import closing
-from os import geteuid, remove
+from os import devnull, geteuid, remove
 from os.path import isfile
 from random import choice
 from subprocess import call
-from sys import argv, exit
+from sys import argv, exit, stderr
 from urllib2 import urlopen
+
+fnull = open(devnull, 'w')
 
 
 class AutoVpn(object):
@@ -62,7 +64,7 @@ class AutoVpn(object):
                 self.save_config_file()
 
     def openvpn(self):
-        call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'])
+        call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'], stderr=fnull)
 
 
 if __name__ == '__main__':
