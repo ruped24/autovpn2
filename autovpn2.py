@@ -14,7 +14,7 @@ from os import geteuid, remove
 from os.path import isfile
 from random import choice
 from subprocess import call
-from sys import argv, exit, stderr
+from sys import argv, exit
 from urllib2 import urlopen
 
 
@@ -47,7 +47,7 @@ class AutoVpn(object):
             self.country = "US"
         print "[autovpn2] looking for %s" % self.country
 
-        with closing(urlopen("http://www.vpngate.net/api/iphone/")
+        with closing(urlopen("https://www.vpngate.net/api/iphone/")
                     ) as serverlist:
             serverlist = serverlist.read().split(',')
             self.servers = [x for x in serverlist if len(serverlist) > 15]
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
     except KeyboardInterrupt:
         call(["kill", "-9", "%s" % getoutput('pidof openvpn')])
-        stderr.write("\x1b[2J\x1b[H")
+        call(['clear'])
         if isfile("/tmp/openvpnconf"):
             remove("/tmp/openvpnconf")
         retry = ('y', 'yes')
