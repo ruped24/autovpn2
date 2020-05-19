@@ -8,7 +8,6 @@
 #
 
 from base64 import b64decode
-from commands import getoutput
 from contextlib import closing
 from os import devnull, geteuid, remove
 from os.path import isfile
@@ -77,7 +76,7 @@ if __name__ == '__main__':
         AutoVpn(''.join(argv[1:]))
 
     except KeyboardInterrupt:
-        call(["kill", "-9", "%s" % getoutput('pidof openvpn')])
+        call(["killall", "-9", "openvpn"])
         call(['clear'])
         if isfile("/tmp/openvpnconf"):
             remove("/tmp/openvpnconf")
