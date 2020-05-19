@@ -10,6 +10,7 @@ sudo autovpn2.py JP
 ### To test:
 * [Anonymity Check](http://proxydb.net/anon)
 * [What is my proxy](http://www.whatismyproxy.com)
+* [DNS leak test](http://dnsleaktest.com)
 
 ---
 
