@@ -71,7 +71,7 @@ if __name__ == '__main__':
         exit("\033[91m[!]\033[0m Run as super user!")
 
     try:
-        print "\n[autovpn2] getting server list"
+        print "\033[96m" + "\n[autovpn2] getting server list"
         print "[autovpn2] parsing response"
         AutoVpn(''.join(argv[1:]))
 
