@@ -10,7 +10,6 @@ sudo autovpn2.py JP
 ### To test:
 * [What is my proxy](http://www.whatismyproxy.com)
 * [DNS leak test](http://dnsleaktest.com)
-
 ---
 
 ### Dependencies:
@@ -21,6 +20,7 @@ apt install openvpn
 ```bash
 mv autovpn2.py /usr/local/bin
 ```
+### [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing)
 
 ### [Frequently Asked Questions](https://github.com/ruped24/autovpn2/wiki/FAQ)
 
