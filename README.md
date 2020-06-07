@@ -27,5 +27,5 @@ mv autovpn2.py /usr/local/bin
 ---
 #### Legal Disclosure:
 
-###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any [Free VPN](https://bitbucket.org/ruped24/autovpnbook/src/master/) service.
+###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any Free VPN service.
 
