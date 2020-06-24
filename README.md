@@ -5,7 +5,7 @@
 
 ### [Usage](https://github.com/ruped24/autovpn2/wiki/Autovpn2-Usage):
 ```bash
-sudo autovpn2.py JP
+sudo autovpn2 JP
 ```
 ### To test:
 * [What is my proxy](http://www.whatismyproxy.com)
@@ -18,7 +18,7 @@ apt install openvpn
 ```
 ### Installation:
 ```bash
-mv autovpn2.py /usr/local/bin
+mv autovpn2.py /usr/local/bin/autovpn2
 ```
 ### [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing)
 
