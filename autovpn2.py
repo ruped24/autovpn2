@@ -50,7 +50,7 @@ class AutoVpn(object):
         with closing(urlopen("https://www.vpngate.net/api/iphone/")
                     ) as serverlist:
             serverlist = serverlist.read().split(',')
-            self.servers = [x for x in serverlist if len(serverlist) > 15]
+            self.servers.extend([x for x in serverlist if len(serverlist) > 15])
             try:
                 server = self.servers.index(self.country)
             except ValueError:
