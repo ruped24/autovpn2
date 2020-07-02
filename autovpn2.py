@@ -64,6 +64,11 @@ class AutoVpn(object):
     def openvpn(self):
         call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'], stderr=fnull)
 
+    @staticmethod
+    def clean_up():
+        if isfile("/tmp/openvpnconf"):
+            remove("/tmp/openvpnconf")
+
 
 if __name__ == '__main__':
     if geteuid() is not 0:
@@ -77,8 +82,7 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         call(["killall", "-9", "openvpn"])
         call(['clear'])
-        if isfile("/tmp/openvpnconf"):
-            remove("/tmp/openvpnconf")
+        AutoVpn.clean_up()
         retry = ('y', 'yes')
         try:
             ans = raw_input(
@@ -90,7 +94,6 @@ if __name__ == '__main__':
                     servers = ('JP', 'KR')
                     AutoVpn(choice(servers))
                 except:
-                    if isfile("/tmp/openvpnconf"):
-                        remove("/tmp/openvpnconf")
+                    AutoVpn.clean_up()
         except:
             pass
