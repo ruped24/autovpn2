@@ -26,11 +26,10 @@ class AutoVpn(object):
         self.get_serverlist()
         self.openvpn()
 
-    def save_config_file(self):
+    def save_config_file(self, server):
         print "[autovpn2] writing config file"
         try:
             with open('/tmp/openvpnconf', 'w') as config_file:
-                server = self.servers.index(self.country)
                 config_file.write(
                     '\n'.join(
                         str(b64decode(self.servers[server + 8])
@@ -53,14 +52,14 @@ class AutoVpn(object):
             serverlist = serverlist.read().split(',')
             self.servers = [x for x in serverlist if len(serverlist) > 15]
             try:
-                self.servers.index(self.country)
+                server = self.servers.index(self.country)
             except ValueError:
                 exit(
                     "[\033[91m!\033[0m] Country code " + "\033[93m" +
                     self.country + "\033[0m" + " not in server list"
                 )
             else:
-                self.save_config_file()
+                self.save_config_file(server)
 
     def openvpn(self):
         call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'], stderr=fnull)
