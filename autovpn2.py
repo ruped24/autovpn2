@@ -24,7 +24,6 @@ class AutoVpn(object):
         self.country = country.upper()
         self.servers = list()
         self.get_serverlist()
-        self.openvpn()
 
     def save_config_file(self, server):
         print "[autovpn2] writing config file"
@@ -41,6 +40,7 @@ class AutoVpn(object):
             self.get_serverlist()
         else:
             print "[autovpn2] running openvpn\n"
+            self.openvpn()
 
     def get_serverlist(self):
         if not self.country:
