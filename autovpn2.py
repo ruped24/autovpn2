@@ -16,11 +16,9 @@ from subprocess import call
 from sys import argv, exit, stderr
 from urllib2 import urlopen
 
-fnull = open(devnull, 'w')
-
 
 class AutoVpn(object):
-    def __init__(self, country='US'):
+    def __init__(self, country="US"):
         self.country = country.upper()
         self.servers = list()
         self.get_serverlist()
@@ -28,11 +26,11 @@ class AutoVpn(object):
     def save_config_file(self, server):
         print "[autovpn2] writing config file"
         try:
-            with open('/tmp/openvpnconf', 'w') as config_file:
+            with open("/tmp/openvpnconf", "w") as config_file:
                 config_file.write(
-                    '\n'.join(
+                    "\n".join(
                         str(b64decode(self.servers[server + 8])
-                           ).split('\n')[:-1]
+                           ).split("\n")[:-1]
                     )
                 )
         except:
@@ -47,22 +45,28 @@ class AutoVpn(object):
             self.country = "US"
         print "[autovpn2] looking for %s" % self.country
 
-        with closing(urlopen("https://www.vpngate.net/api/iphone/")
-                    ) as serverlist:
-            serverlist = serverlist.read().split(',')
+        with closing(
+            urlopen("https://www.vpngate.net/api/iphone/")
+        ) as serverlist:
+            serverlist = serverlist.read().split(",")
             self.servers.extend([x for x in serverlist if len(serverlist) > 15])
             try:
                 server = self.servers.index(self.country)
             except ValueError:
                 exit(
-                    "[\033[91m!\033[0m] Country code " + "\033[93m" +
-                    self.country + "\033[0m" + " not in server list"
+                    "[\033[91m!\033[0m] Country code "
+                    + "\033[93m"
+                    + self.country
+                    + "\033[0m"
+                    + " not in server list"
                 )
             else:
                 self.save_config_file(server)
 
     def openvpn(self):
-        call(['openvpn', '--config', '%s' % '/tmp/openvpnconf'], stderr=fnull)
+        fnull = open(devnull, "w")
+        call(["openvpn", "--config", "%s" % "/tmp/openvpnconf"],
+        stderr=fnull)
 
     @staticmethod
     def clean_up():
@@ -70,20 +74,20 @@ class AutoVpn(object):
             remove("/tmp/openvpnconf")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     if geteuid() is not 0:
         exit("\033[91m[!]\033[0m Run as super user!")
 
     try:
         print "\033[96m" + "\n[autovpn2] getting server list"
         print "[autovpn2] parsing response"
-        AutoVpn(''.join(argv[1:]))
+        AutoVpn("".join(argv[1:]))
 
     except KeyboardInterrupt:
         call(["killall", "-9", "openvpn"])
-        call(['clear'])
+        call(["clear"])
         AutoVpn.clean_up()
-        retry = ('y', 'yes')
+        retry = ("y", "yes")
         try:
             ans = raw_input(
                 "\033[92m\n[autovpn2]\033[93m try another VPN? (y/n)\033[0m " +
@@ -91,7 +95,7 @@ if __name__ == '__main__':
             )
             if ans.lower() in retry:
                 try:
-                    servers = ('JP', 'KR')
+                    servers = ("JP", "KR")
                     AutoVpn(choice(servers))
                 except:
                     AutoVpn.clean_up()
