@@ -20,7 +20,7 @@ apt install openvpn
 ```bash
 mv autovpn2.py /usr/local/bin/autovpn2
 ```
-### [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing)
+### | [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) |
 
 ### [Frequently Asked Questions](https://github.com/ruped24/autovpn2/wiki/FAQ)
 
