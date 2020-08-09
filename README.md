@@ -4,12 +4,20 @@
 [VPN Gate](https://www.vpngate.net/en/) Client to Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
 ### [Usage](https://github.com/ruped24/autovpn2/wiki/Autovpn2-Usage):
+
 ```bash
 sudo autovpn2 JP
 ```
+<details><summary>Expand for shot demo</summary>
+<br>
+
+| [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) |
+
+</details>
+
 ### To test:
 
-<details><summary>Expand to test</summary>
+<details><summary>Expand for test sites</summary>
 <br>
 
 * [Check My IPx](https://ipx.ac/)
@@ -30,7 +38,7 @@ mv autovpn2.py /usr/local/bin/autovpn2
 ```
 ### [Frequently Asked Questions](https://github.com/ruped24/autovpn2/wiki/FAQ)
 
-### ` ` | [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) | ` `
+
 
 ---
 #### Legal Disclosure:
