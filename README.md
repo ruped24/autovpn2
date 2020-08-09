@@ -17,7 +17,7 @@ sudo autovpn2 JP
 
 ### To test:
 
-<details><summary>Expand for test sites</summary>
+<details><summary>Expand for proxy test sites</summary>
 <br>
 
 * [Check My IPx](https://ipx.ac/)
