@@ -12,6 +12,7 @@ sudo autovpn2 JP
 <details><summary>Expand to test</summary>
 <br>
 
+* [Check My IPx](https://ipx.ac/)
 * [What is my proxy](http://www.whatismyproxy.com)
 * [DNS leak test](http://dnsleaktest.com)
 
