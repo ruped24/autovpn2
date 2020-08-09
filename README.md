@@ -16,6 +16,7 @@ sudo autovpn2 JP
 * [DNS leak test](http://dnsleaktest.com)
 
 </details>
+
 ---
 
 ### Dependencies:
