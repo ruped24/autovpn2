@@ -8,7 +8,7 @@
 ```bash
 sudo autovpn2 JP
 ```
-<details><summary>Expand for shot demo</summary>
+<details><summary>Expand for shot & demo</summary>
 <br>
 
 | [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) |
