@@ -8,8 +8,14 @@
 sudo autovpn2 JP
 ```
 ### To test:
+
+<details><summary>Expand to test</summary>
+<br>
+
 * [What is my proxy](http://www.whatismyproxy.com)
 * [DNS leak test](http://dnsleaktest.com)
+
+</details>
 ---
 
 ### Dependencies:
