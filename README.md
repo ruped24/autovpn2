@@ -10,7 +10,7 @@ sudo autovpn2 JP
 ```
 <details><summary>Expand for demo</summary>
 
-### Test anonymity:
+### Anonymity check:
 * [Check My IPx](https://ipx.ac/)
 * [What is my proxy](http://www.whatismyproxy.com)
 * [DNS leak test](http://dnsleaktest.com)
