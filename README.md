@@ -11,12 +11,12 @@ sudo autovpn2 JP
 <details><summary>Expand for demo</summary>
 <br>
 
-| [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) |
-
 ### Test anonymity:
 * [Check My IPx](https://ipx.ac/)
 * [What is my proxy](http://www.whatismyproxy.com)
 * [DNS leak test](http://dnsleaktest.com)
+
+| [Screenshot](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) | [Demo](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) |
 
 </details>
 
