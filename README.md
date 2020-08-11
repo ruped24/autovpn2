@@ -9,7 +9,6 @@
 sudo autovpn2 JP
 ```
 <details><summary>Expand for demo</summary>
-<br>
 
 ### Test anonymity:
 * [Check My IPx](https://ipx.ac/)
