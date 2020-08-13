@@ -6,6 +6,7 @@
 ### Usage:
 
 <details><summary>Expand for usage</summary>
+<br>
 
 **How to connect to a VPN Gate server:**
 
