@@ -19,7 +19,7 @@ sudo autovpn2 JP
 
 [▹ DNS leak test](http://dnsleaktest.com)
 
-![#ffffff](https://via.placeholder.com/9/000000/FFFFFF/?text=+)  **|** [**Screenshot**](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) **|** [**Demo**](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) **|**
+:white_square_button: **|** [**Screenshot**](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) **|** [**Demo**](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) **|**
 
 </details>
 
