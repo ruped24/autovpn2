@@ -3,7 +3,32 @@
 
 [VPN Gate](https://www.vpngate.net/en/) Client to Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
-### [Usage](https://github.com/ruped24/autovpn2/wiki/Autovpn2-Usage):
+### Usage:
+
+<details><summary>Expand for usage</summary>
+
+**How to connect to a VPN Gate server:**
+
+Use the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) list to get the country code. 
+
+<details><summary>Expand for VPN Gate Servers List</summary>
+<br>
+
+[► **VPN Gate Servers List**](https://www.vpngate.net/en/)
+
+</details>
+
+_E.g._ Korea Republic (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea))
+
+To **start** the VPN: _E.g._ ` sudo autovpn2 KR`
+
+To **stop** the VPN: Press <kbd>CTRL + c</kbd> 
+
+The autovpn2 script will ask if you want to try another VPN.
+
+If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, press <kbd>n</kbd>
+
+</details>
 
 ```bash
 sudo autovpn2 JP
