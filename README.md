@@ -11,9 +11,9 @@ sudo autovpn2 JP
 <details><summary>Expand for demo</summary>
 <br>
   
-[► Anonymity check](http://proxydb.net/anon)
+[► Check My IPx](https://ipx.ac/)
 
- [► Check My IPx](https://ipx.ac/)
+[► Anonymity check](http://proxydb.net/anon)
 
 [► What is my proxy](http://www.whatismyproxy.com)
 
