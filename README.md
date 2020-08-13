@@ -25,7 +25,7 @@ To **start** the VPN: _E.g._ ` sudo autovpn2 KR`
 
 To **stop** the VPN: Press <kbd>CTRL + c</kbd> 
 
-The autovpn2 script will ask if you want to try another VPN.
+The _autovpn2_ script will ask if you want to try another VPN.
 
 If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, press <kbd>n</kbd>
 
