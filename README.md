@@ -35,12 +35,10 @@ mv autovpn2.py /usr/local/bin/autovpn2
 ```
 ### [Frequently Asked Questions](https://github.com/ruped24/autovpn2/wiki/FAQ)
 <details><summary>Expand for Frequently Asked Questions</summary>
-<br>
 
-```diff
-- Note: autovpn2 defaults to the US servers. The Japan (JP) servers are preferred.
-```
 ---
+
+### FAQ:
 
 > The default USA (**US** [:us:](https://en.wikipedia.org/wiki/United_States)) servers seems to be slow to me, which country is the fastest?
  
@@ -78,6 +76,11 @@ The "2" is to not conflict with the original script if installed on said system.
 > How safe are free VPN services?
 
 Well, I'll leave you with [this](https://lmgtfy.com/?q=How+safe+are+free+VPN+services%3F).
+
+
+```diff
+- Note: autovpn2 defaults to the US servers. The Japan (JP) servers are preferred.
+```
 
 </details>
 
