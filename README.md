@@ -5,6 +5,10 @@
 
 ### Usage:
 
+```bash
+sudo autovpn2 JP
+```
+
 <details><summary>Expand for usage</summary>
 <br>
 
@@ -31,9 +35,6 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 </details>
 
-```bash
-sudo autovpn2 JP
-```
 <details><summary>Expand for demo</summary>
 <br>
   
