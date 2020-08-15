@@ -58,6 +58,8 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 ```bash
 apt install openvpn
 ```
+---
+
 ### Installation:
 ```bash
 mv autovpn2.py /usr/local/bin/autovpn2
