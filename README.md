@@ -62,6 +62,8 @@ apt install openvpn
 ```bash
 mv autovpn2.py /usr/local/bin/autovpn2
 ```
+---
+
 ### Frequently Asked Questions:
 <details><summary>Expand for Frequently Asked Questions</summary>
 
