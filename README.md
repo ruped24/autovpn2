@@ -123,4 +123,3 @@ Well, I'll leave you with [this](https://lmgtfy.com/?q=How+safe+are+free+VPN+ser
 
 ###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any Free VPN service.
 
----
