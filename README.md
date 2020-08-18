@@ -35,7 +35,6 @@ The _autovpn2_ script will ask if you want to try another VPN.
 
 If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, press <kbd>n</kbd>
 
-</details>
 
 <details><summary>Expand for demo</summary>
 <br>
@@ -49,6 +48,9 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 [▹ DNS leak test](http://dnsleaktest.com)
 
 :white_square_button: **|** [**Screenshot**](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) **|** [**Demo**](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) **|**
+
+</details>
+
 
 </details>
 
