@@ -36,7 +36,7 @@ The _autovpn2_ script will ask if you want to try another VPN.
 If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, press <kbd>n</kbd>
 
 
-<details><summary>Expand for demo</summary>
+<details><summary>Expand for screenshot, demo and test</summary>
 <br>
   
 [▹ Check My IPx](https://ipx.ac/)
