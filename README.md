@@ -94,13 +94,6 @@ Pick one of these free and public [DNS](https://www.lifewire.com/free-and-public
 
 Haha, The truth is, I didn't want to fight (_choosing my battles_;) with [Python3](https://www.pythonconverter.com/)'s bytes to string conversions for this [_one-off_](http://www.wtfpl.net) script.
 
-> What about Python3.x compatibility and security going forward?
-
-Personally, I compile my Python 2.x standalone scripts to a Linux [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) 64-bit LSB  executable using [Nuitka](http://nuitka.net/). 
-
-You can find a complied  x86_64 binary executable under [release](https://github.com/ruped24/autovpn2/releases/tag/v1.0).
-
-The created binary executes independent of a Python installation.
 
 > What's with the name and the "2"?
 
