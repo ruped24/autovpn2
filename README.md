@@ -71,8 +71,6 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 ### Frequently Asked Questions:
 <details><summary>Expand for Frequently Asked Questions</summary>
 
----
-
 ### FAQ:
 
 > The default USA (**US** [:us:](https://en.wikipedia.org/wiki/United_States)) servers seems to be slow to me, which country is the fastest?
