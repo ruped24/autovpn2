@@ -79,7 +79,7 @@ In "my" testing, Japan (**JP** [:jp:](https://en.wikipedia.org/wiki/Japan)) or K
 
 > Can I change the default country code?
 
-![#ffff00](https://placehold.it/15/ffff00/000000?text=+) Yes, you can change the default [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) standard code in the script.
+Yes, you can change the default [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) standard code in the script.
 
 Change Line [21](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L21) and 
 Line [45](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L45) to the country code (Uppercase) of your choice.
