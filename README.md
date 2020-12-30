@@ -102,12 +102,6 @@ I wrote this as a drop in replacement for the original [autovpn](https://en.kali
 
 The "2" is to not conflict with the original script if installed on said system. 
 
-> How safe are free VPN services?
-
-Well, I'll leave you with [this](https://duckduckgo.com/?q=How+safe+are+free+VPN+services%3F&t=h_&ia=web).
-
-
-```diff
 - Note: autovpn2 defaults to the US servers. The Japan (JP) servers are preferred.
 ```
 
