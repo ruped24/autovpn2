@@ -102,7 +102,7 @@ I wrote this as a drop in replacement for the original [autovpn](https://en.kali
 
 The "2" is to not conflict with the original script if installed on said system. 
 
-```
+```diff
 - Note: autovpn2 defaults to the US servers. The Japan (JP) servers are preferred.
 ```
 
