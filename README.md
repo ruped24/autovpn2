@@ -45,7 +45,7 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 [▹ What is my proxy](http://www.whatismyproxy.com)
 
-[▹ DNS leak test](http://dnsleaktest.com)
+[▹ DNS leak test](https://www.doileak.com/classic.html)
 
 :white_square_button: **|** [**Screenshot**](https://drive.google.com/file/d/10oEKydkW7YzZFK7VLOvAzz3HSzSIoED4/view?usp=sharing) **|** [**Demo**](https://drive.google.com/file/d/16VfJfKZqqR0RYzVxmPgfhGNKwsuYHVph/view?usp=sharing) **|**
 
