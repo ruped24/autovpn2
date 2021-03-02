@@ -75,7 +75,7 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 
 > The default USA (**US** [:us:](https://en.wikipedia.org/wiki/United_States)) servers seems to be slow to me, which country is the fastest?
  
-In "my" testing, Japan (**JP** [:jp:](https://en.wikipedia.org/wiki/Japan)) or Korea Republic (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)) servers seems to be "faster". 
+In "my" testing, Japan (**JP** [:jp:](https://en.wikipedia.org/wiki/Japan)) or Korea Republic (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)) servers seem to be "faster". 
 
 > Can I change the default country code?
 
