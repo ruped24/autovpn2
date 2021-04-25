@@ -37,7 +37,7 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 <details><summary>Expand for ISO 3166-2 country code</summary>
 <br>
-<p>The following is a complete list of the 249 current officially assigned ISO 3166-1 alpha-2 codes, with the following columns:
+<p>The following is a complete list of the 249 current officially assigned <strong><a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2 codes</a></strong>, with the following columns:
 </p>
 <ul><li><b>Code</b> — ISO 3166-1 alpha-2 code</li>
 <li><b>Country name</b> — English short name officially used by the ISO 3166 Maintenance Agency (ISO 3166/MA)</li>
