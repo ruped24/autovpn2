@@ -35,7 +35,7 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 ***
 
-<details><summary>Expand or ISO country code</summary>
+<details><summary>Expand for ISO 3166-2 country code</summary>
 <br>
 <p>The following is a complete list of the 249 current officially assigned ISO 3166-1 alpha-2 codes, with the following columns:
 </p>
