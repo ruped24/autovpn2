@@ -35,7 +35,7 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 ***
 
-<details><summary>Expand for ISO 3166-2 country code</summary>
+<details><summary>Expand for ISO 3166 country codes</summary>
 <br>
 <table>
 <thead>
