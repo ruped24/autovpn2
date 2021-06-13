@@ -1074,7 +1074,7 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 
 ### FAQ:
 
-> Why do I sometimes get **`[autovpn2] rewritting config file`** stuck in a loop?
+> Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop?
   
 Because the parser got a bad or corrupt config file for said country from the servers [CSV List](http://www.vpngate.net/api/iphone/).
 
