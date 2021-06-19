@@ -1099,7 +1099,9 @@ Pick one of these free and public [DNS](https://www.lifewire.com/free-and-public
 
 Haha, The truth is, I didn't want to fight (_choosing my battles_;) with [Python3](https://www.pythonconverter.com/)'s bytes to string conversions for this [_one-off_](http://www.wtfpl.net) script.
 
-Personally, I compile my legacy Python 2.7 standalone scripts to a Linux ELF 64-bit LSB executable using [Nuitka](https://nuitka.net/doc/user-manual.html) and [makeself](https://github.com/megastep/makeself#usage).  The created binary executes independent of a Python installation.
+Personally, I compile my legacy Python 2.7 standalone scripts to a Linux ELF 64-bit LSB executable using [Nuitka](https://nuitka.net/doc/user-manual.html) and [appimagekit](https://appimage.org).
+  
+The created binary executes independent of a Python installation.
 
 A [precompiled x86_64 autovpn2 binary](https://github.com/ruped24/autovpn2/releases/tag/v1.0) can be found under releases.
 
