@@ -1078,9 +1078,11 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 
 > Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop?
   
-Because the parser got a bad or corrupt config file for said country from the servers [CSV List](http://www.vpngate.net/api/iphone/).
+Because the parser got a bad or corrupt config file for said country from the servers CSV List.
 
 Retry later or just try another country code (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)).
+  
+Or use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to fetch the list of connectable countries.
   
 > The default USA (**US** [:us:](https://en.wikipedia.org/wiki/United_States)) servers seems to be slow to me, which country is the fastest?
  
