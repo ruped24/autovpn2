@@ -1095,7 +1095,7 @@ Yes, you can change the default [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3
 Change Line [21](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L21) and 
 Line [45](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L45) to the country code (Uppercase) of your choice.
 
-> How can I get a list of Connetable countries without goinng to [vpngate.net](https://vngate.net) website
+> How can I get a list of Connetable countries without goinng to [vpngate.net](https://www.vpngate.net/en/) website
   
 You can use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility go fetch the connectable list of countries.
   
