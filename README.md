@@ -1076,13 +1076,13 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 
 ### FAQ:
 
-> Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop?
+> Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop when I use country code JP?
   
-Because the parser got a bad or corrupt config file for said country from the servers CSV List.
+The parser got a bad or corrupt config file for said country from the servers CSV List.
 
-Retry later or just try another country code (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)).
+Retry that country code later or just try another country code (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)).
   
-Or use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to fetch the list of connectable countries.
+You can also use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to fetch the list of connectable countries.
   
 > The default USA (**US** [:us:](https://en.wikipedia.org/wiki/United_States)) servers seems to be slow to me, which country is the fastest?
  
@@ -1095,6 +1095,10 @@ Yes, you can change the default [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3
 Change Line [21](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L21) and 
 Line [45](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15bf654cef594/autovpn2.py#L45) to the country code (Uppercase) of your choice.
 
+> How can I get a list of Connetable countries without goinng to [vpngate.net](https://vngate.net) website
+  
+You can use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility go fetch the connectable list of countries.
+  
 > How to fix my DNS leak?
 
 Pick one of these free and public [DNS](https://www.lifewire.com/free-and-public-dns-servers-2626062) Servers.
@@ -1116,7 +1120,7 @@ I wrote this as a drop in replacement for the original [autovpn](https://en.kali
 The "2" is to not conflict with the original script if installed on said system. 
 
 ```diff
-- Note: autovpn2 defaults to the US servers. The Japan (JP) servers are preferred.
+- Note: autovpn2 defaults to the US servers. The Japan or Korea (JP, KR) servers are preferred.
 ```
 
 </details>
