@@ -20,6 +20,25 @@ sudo autovpn2 JP
 <br>
   
 [► **vpngate-x86_64.AppImage**](https://github.com/ruped24/autovpn2/releases/tag/v1.0)
+  
+<details><summary>Expand for Connectable countries</summary>
+<br>
+
+
+Execute ` ./vpngate-x86_64.AppImage` to get an updated list of connectable countries.
+
+```
+[?] Fetching vpngate servers
+[+] Parsing servers response
+
+            Connectable countries
+
+    JP) Japan                    KR) Korea Republic of    
+    TH) Thailand                 TW) Taiwan               
+    US) United States            VN) Viet Nam
+```
+
+</details>
 
 [► **VPN Gate Servers List**](https://www.vpngate.net/en/)
 
