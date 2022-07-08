@@ -1,5 +1,5 @@
 # autovpn2
-![](https://img.shields.io/badge/autovpn2-python_2.7-blue.svg?style=flat-square) ![](https://img.shields.io/badge/dependencies-openvpn-orange.svg?style=flat-square)  [![](https://img.shields.io/badge/License-WTFPL%202.0-lightgrey.svg?style=flat-square)](http://www.wtfpl.net/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ruped24/autovpn2/graphs/commit-activity)
+![](https://img.shields.io/badge/autovpn2-python_2.7-blue.svg?style=flat-square) ![](https://img.shields.io/badge/autovpn2-AppImage-red.svg?style=flat-square)  ![](https://img.shields.io/badge/dependencies-openvpn-orange.svg?style=flat-square)  [![](https://img.shields.io/badge/License-WTFPL%202.0-lightgrey.svg?style=flat-square)](http://www.wtfpl.net/) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/ruped24/autovpn2/graphs/commit-activity)
 
 [VPN Gate](https://www.vpngate.net/en/) Client to Free VPN Access. You can get through firewalls and beyond to browse restricted websites. 
 
