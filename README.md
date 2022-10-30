@@ -1099,7 +1099,8 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
   
 The parser got a bad or corrupt config file for said country from the servers CSV List.
 
-Retry that country code later or just try another country code (**KR** [:kr:](https://en.wikipedia.org/wiki/South_Korea)).
+Retry that country code later or try [
+freevpnme-v.1.0-x86_64.AppImage ](https://github.com/ruped24/autovpn2/releases/tag/v1.0).
   
 You can also use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to fetch the list of connectable countries.
   
