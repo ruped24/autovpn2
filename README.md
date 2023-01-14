@@ -8,7 +8,7 @@
 ### Usage:
 
 ```bash
-sudo autovpn2 JP
+sudo autovpn2 KR
 ```
 
 <details><summary>Expand for usage</summary>
