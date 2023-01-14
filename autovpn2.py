@@ -24,7 +24,7 @@ class AutoVpn(object):
         self.get_serverlist()
 
     def save_config_file(self, server):
-        print "[autovpn2] writing config file"
+        print ("[autovpn2] writing config file")
         try:
             with open("/tmp/openvpnconf", "w") as config_file:
                 config_file.write(
@@ -34,16 +34,16 @@ class AutoVpn(object):
                     )
                 )
         except:
-            print "[autovpn2] rewriting config file"
+            print ("[autovpn2] rewriting config file")
             self.get_serverlist()
         else:
-            print "[autovpn2] running openvpn\n"
+            print ("[autovpn2] running openvpn\n")
             self.openvpn()
 
     def get_serverlist(self):
         if not self.country:
             self.country = "US"
-        print "[autovpn2] looking for %s" % self.country
+        print ("[autovpn2] looking for %s" % self.country)
 
         with closing(
             urlopen("https://www.vpngate.net/api/iphone/")
@@ -79,8 +79,8 @@ if __name__ == "__main__":
         exit("\033[91m[!]\033[0m Run as super user!")
 
     try:
-        print "\033[96m" + "\n[autovpn2] getting server list"
-        print "[autovpn2] parsing response"
+        print ("\033[96m" + "\n[autovpn2] getting server list")
+        print ("[autovpn2] parsing response")
         AutoVpn("".join(argv[1:]))
 
     except KeyboardInterrupt:
