@@ -1,3 +1,5 @@
+#! /usr/bin/env python
+
 #! /usr/bin/env python2
 #
 # Autovpn2 Written by Rupe Wed May 13 2020, Version 1.0
@@ -5,7 +7,6 @@
 # Connects to VPN Gate Public VPN Relay Servers.
 #
 # https://www.vpngate.net/en/
-#
 
 from base64 import b64decode
 from contextlib import closing
@@ -14,7 +15,7 @@ from os.path import isfile
 from random import choice
 from subprocess import call
 from sys import argv, exit, stderr
-from urllib2 import urlopen
+import urllib.request as urllib2
 
 
 class AutoVpn(object):
@@ -24,7 +25,7 @@ class AutoVpn(object):
         self.get_serverlist()
 
     def save_config_file(self, server):
-        print "[autovpn2] writing config file"
+        print("[autovpn2] writing config file")
         try:
             with open("/tmp/openvpnconf", "w") as config_file:
                 config_file.write(
@@ -34,19 +35,19 @@ class AutoVpn(object):
                     )
                 )
         except:
-            print "[autovpn2] rewriting config file"
+            print("[autovpn2] rewriting config file")
             self.get_serverlist()
         else:
-            print "[autovpn2] running openvpn\n"
+            print("[autovpn2] running openvpn\n")
             self.openvpn()
 
     def get_serverlist(self):
         if not self.country:
             self.country = "US"
-        print "[autovpn2] looking for %s" % self.country
+        print("[autovpn2] looking for %s" % self.country)
 
         with closing(
-            urlopen("https://www.vpngate.net/api/iphone/")
+            urllib2.urlopen("https://www.vpngate.net/api/iphone/")
                     ) as serverlist:
             serverlist = serverlist.read().split(",")
             self.servers.extend([x for x in serverlist if len(serverlist) > 15])
@@ -75,12 +76,12 @@ class AutoVpn(object):
 
 
 if __name__ == "__main__":
-    if geteuid() is not 0:
+    if geteuid() != 0:
         exit("\033[91m[!]\033[0m Run as super user!")
 
     try:
-        print "\033[96m" + "\n[autovpn2] getting server list"
-        print "[autovpn2] parsing response"
+        print("\033[96m" + "\n[autovpn2] getting server list")
+        print("[autovpn2] parsing response")
         AutoVpn("".join(argv[1:]))
 
     except KeyboardInterrupt:
