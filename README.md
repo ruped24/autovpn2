@@ -1094,6 +1094,18 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 <details><summary>Expand for Frequently Asked Questions</summary>
 
 ### FAQ:
+> Why do I get this missing cipher error message below:
+
+`2024-10-11 20:51:59 DEPRECATED OPTION: --cipher set to 'AES-128-CBC' but missing in --data-ciphers (AES-256-GCM:AES-128-GCM:CHACHA20-POLY1305). OpenVPN ignores --cipher for cipher negotiations. 
+2024-10-11 20:51:59 Note: Kernel support for ovpn-dco missing, disabling data channel offload.
+2024-10-11 20:51:59 OpenVPN 2.6.9 x86_64-pc-linux-gnu [SSL (OpenSSL)] [LZO] [LZ4] [EPOLL] [PKCS11] [MH/PKTINFO] [AEAD] [DCO]
+2024-10-11 20:51:59 library versions: OpenSSL 3.2.2-dev , LZO 2.10
+2024-10-11 20:51:59 DCO version: N/A
+2024-10-11 20:51:59 WARNING: No server certificate verification method has been enabled.  See http://openvpn.net/howto.html#mitm for more info.
+`
+
+VPNGate and autovpn2 client works with OpenVPN 2.4 cipher ['AES-128-CBC'](https://drive.google.com/file/d/1YhjYiK5RFTU1fJgGe5rV_LoOr8b3fkaX/view?usp=sharing)
+The Fix is to fallback from 2.6.x to 2.4.x :(
 
 > Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop when I use country code JP?
   
