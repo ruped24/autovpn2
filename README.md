@@ -1110,6 +1110,11 @@ The Fix is to fallback from 2.6.x to 2.4.x :(
 OR try [
 vpnbook-x86_64.AppImage ](https://github.com/ruped24/autovpn2/releases/tag/v1.0).
 
+> Why do I get this error when running sudo ./vpnbook-x86_64.AppImage: Error
+**selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status 1**?
+
+**Do not run with sudo**.  Run as a regular user. Eg. **./vpnbook-x86_64.AppImage** or add to the user's binary executable runpath /usr/local/bin.
+
 > Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop when I use country code JP?
   
 The parser got a bad or corrupt config file for said country from the servers CSV List.
