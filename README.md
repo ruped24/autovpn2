@@ -1107,6 +1107,8 @@ sudo mv autovpn2.py /usr/local/bin/autovpn2
 VPNGate and autovpn2 client works with OpenVPN 2.4 cipher ['AES-128-CBC'](https://drive.google.com/file/d/1YhjYiK5RFTU1fJgGe5rV_LoOr8b3fkaX/view?usp=sharing)
 The Fix is to fallback from 2.6.x to 2.4.x :( 
 
+<!--
+
 OR try [
 vpnbook-x86_64.AppImage ](https://github.com/ruped24/autovpn2/releases/tag/v1.0).
 
@@ -1115,13 +1117,21 @@ vpnbook-x86_64.AppImage ](https://github.com/ruped24/autovpn2/releases/tag/v1.0)
 
 **Do not run with sudo or as root**.  Run as a regular user. Eg. **./vpnbook-x86_64.AppImage** or add to the user's binary executable runpath /usr/local/bin.
 
+-->
+
 > Why do I sometimes get **`[autovpn2] rewriting config file`** stuck in a loop when I use country code JP?
   
 The parser got a bad or corrupt config file for said country from the servers CSV List.
 
 
-Retry that country code later or try [
+Retry that country code later. 
+
+<!--
+
+or try [
 vpnbook-x86_64.AppImage ](https://github.com/ruped24/autovpn2/releases/tag/v1.0).
+
+-->
 
 You can also use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to fetch the list of connectable countries.
   
