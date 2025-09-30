@@ -1180,5 +1180,5 @@ The "2" is to not conflict with the original script if installed on said system.
 
 #### Legal Disclaimer:
 
-###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any Free VPN service.
+###### We are not affiliated with [VPN Gate](https://www.vpngate.net/en/) in any way. We are not advocating the use of their or any Free VPN services.
 
