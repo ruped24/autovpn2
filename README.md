@@ -1124,7 +1124,7 @@ Line [45](https://github.com/ruped24/autovpn2/blob/80782a993fafc99a2b8eb67861f15
 
 > How can I get a list of Connetable countries without goinng to [vpngate.net](https://www.vpngate.net/en/) website.
   
-You can use the [vpngate-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) utility to go fetch the connectable list of countries.
+You can use the [auto-vpfetch-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases/tag/v1.0) app to fetch the connectable list of countries and auto login the selection.
   
 > How to fix my DNS leak?
 
