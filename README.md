@@ -18,6 +18,8 @@ sudo autovpn2 JP
 
 <details><summary>Expand for VPN Gate Servers List</summary>
 <br>
+
+[► **auto-vpfetch-x86_64.AppImage**](https://github.com/ruped24/autovpn2/releases/tag/v1.0)
   
 [► **vpngate-x86_64.AppImage**](https://github.com/ruped24/autovpn2/releases/tag/v1.0)
   
