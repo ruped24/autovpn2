@@ -1081,8 +1081,13 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 ---
 
 ### Installation:
+<details><summary>Expand for installation</summary>
+<br>
 
-sudo mv [autovpn2-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases) /usr/local/bin/autovpn2
+```bash
+sudo mv autovpn2-x86_64.AppImage /usr/local/bin/autovpn2
+```
+</details>
 
 ---
 
