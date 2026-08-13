@@ -1084,8 +1084,16 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 <details><summary>Expand for installation</summary>
 <br>
 
+  ```bash
+chmod +x autovpn2*.AppImage
+```
+
 ```bash
 sudo mv autovpn2-x86_64.AppImage /usr/local/bin/autovpn2
+```
+
+```bash
+sudo chown root:root /usr/local/bin/autovpn2
 ```
 </details>
 
