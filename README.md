@@ -1080,16 +1080,10 @@ If you want to retry another VPN, then press <kbd>y</kbd>, if you want to quit, 
 
 ---
 
-### Dependencies:
-```bash
-apt install openvpn
-```
----
-
 ### Installation:
-```bash
-sudo mv autovpn2.py /usr/local/bin/autovpn2
-```
+
+sudo mv [autovpn2-x86_64.AppImage](https://github.com/ruped24/autovpn2/releases) /usr/local/bin/autovpn2
+
 ---
 
 ### Frequently Asked Questions:
